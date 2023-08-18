@@ -1,12 +1,15 @@
-Git, Github and Version Control
+Module 0:  Git, Github and Version Control
 
-Working Directory <---> Staggging Area <---> Local Repository <---> Remote Repository
+Working Directory <- add-> Staggging Area <-commit-> Local (Git) Repository <-push-> Remote (GitHub/CodeCommit) Repository
 
-git init    // create a .git file in local/working directory and versioning begin.
-git add     // add file or ... 
-git rm      //
-git log     // commit log/history
-git status  //
+
+
+git init      // create a .git file in local/working directory and versioning begin.
+git add/rm    // add or remove file or folder or all(.) in folder   
+git log       // show commit log/history
+git status   //
+git diff chapter.txt  //
+git checkout chapter1.txt // rollback change fome Repository to Working Directory
 
 
 git clone vs fork
