@@ -1,0 +1,4 @@
+// ignore aws credentials to ~/.aws/credentials
+secrets.txt
+~/.aws/credentials
+*.log
