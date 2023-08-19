@@ -1,39 +1,49 @@
-Module 0:  Git, Github and Version Control
 
-Working Directory <-add-> Staggging Area <-commit-> Local (Git) Repository <-push-> Remote (GitHub/CodeCommit) Repository
+# Module 0: Git - Learn foundamentals of Git, GitHub, and Version Control
 
+Working Directory <-add-> Staging Area <-commit-> Local (Git) Repository <-push-> Remote (GitHub/CodeCommit) Repository
 
-Local Reposotory
+## Local Repository
 
-git init      // create a .git file in local/working directory and versioning begin.
-git add/rm    // add or remove file or folder or all(.) in folder   
-git log       // show commit log/history
-git status   //
-git diff chapter.txt  //
-git checkout chapter1.txt // rollback change fome Repository to Working Directory
+```sh
+# Initialize a local repository
+git init
 
+# Add or remove files to/from the staging area
+git add <file/folder>
+git rm <file/folder>
 
-Remote Repository 
+# View commit history
+git log
 
-git remote add origin <url>   // by default remote name is origin
-git push -u <remote name> <branch name>  / 
-    git push -u origin main
-    git push -u origin dev
-    git push -u origin feature-account_access
-git merge
-git clone vs fork
+# Check current status
+git status
 
-get merge
+# See differences in a file
+git diff <file>
 
-git rebase
+# Roll back changes from repository to working directory
+git checkout <file>
 
-git branch  <dev, feature-account_access feature-cicd_pipeline>
+# Create and manage branches
+git branch <branch-name>
+git checkout <branch-name>
 
-pull Request
+# Add a remote repository
+git remote add origin <url>
 
+# Push commits to a remote repository
+git push -u <remote-name> <branch-name>
 
+# Clone a remote repository locally
+git clone <repository-url>
 
-branch: main, dev, feauture, hotfix, bug 
+# Merge branches
+git merge <branch-name>
+
+# Rebase changes onto a branch
+git rebase <base-branch>
+
 
 
 
